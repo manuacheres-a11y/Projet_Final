@@ -887,7 +887,7 @@ print(f"✅ PDF généré avec succès : {DEAL_PDF_PATH}")
 # - réduire les réponses basées sur des correspondances faibles
 # - privilégier le "no answer" plutôt qu'une réponse approximative
 MIN_SIMILARITY_LOW = 0.45
-
+ 
 # J'ai ajouté un second seuil (0.75) pour (puis modification à 0.65 car le chatbot ne donne aucune réponse):
 # - distinguer les réponses fiables des réponses incertaines
 # - afficher un avertissement lorsque la réponse est plausible mais pas certaine
