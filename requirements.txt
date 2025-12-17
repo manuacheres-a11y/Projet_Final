@@ -1,0 +1,37 @@
+# Python runtime
+python==3.11
+
+# Core
+numpy>=1.26,<3
+pandas>=2.2,<3
+openpyxl>=3.1,<4
+
+# Plotting
+matplotlib>=3.8,<4
+seaborn>=0.13,<1
+
+# PDF generation
+reportlab>=4.0,<5
+
+# Word (.docx) parsing
+python-docx>=1.1,<2
+
+# NLP
+nltk>=3.9,<4
+spacy>=3.7,<4
+scikit-learn>=1.4,<2
+
+# RAG / embeddings + reranking
+sentence-transformers>=3.0,<4
+transformers>=4.41,<5
+torch>=2.2,<3
+
+# UI
+gradio>=4.44,<5
+
+# Optional LLM clients (imports are try/except in the code)
+openai>=1.30,<2
+mistralai>=1.0,<2
+
+# Notebook display helpers (used for IFrame/FileLink/display)
+ipython>=8.24,<9
